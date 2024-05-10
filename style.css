@@ -204,7 +204,7 @@ nav {
 .layer5 {
     display: flex;
     justify-content: space-around;
-    height: 100px;
+    height: 125px;
     background-color: hsl(12, 88%, 59%);
     align-items: center;
 
@@ -218,11 +218,29 @@ nav {
     #get{
         font-family: "Be Vietnam Pro", sans-serif;
         font-weight: 400;
-        font-size: 12px; 
+        font-size: 10px; 
         background-color: hsl(0, 0%, 98%);
         color: hsl(12, 88%, 59%);
         border: none;
         border-radius: 25px;
         padding: 5px;
+    }
+}
+
+.layer6{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(228, 39%, 23%);
+    height: 125px;
+    padding: 20px;
+
+
+    .child1{
+        display: flex;
+        flex-direction: column;
+
+        #images{
+        
+        }
     }
 }
